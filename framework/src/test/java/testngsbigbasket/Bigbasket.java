@@ -39,7 +39,15 @@ public class Bigbasket extends TestBse{
 		act.moveToElement(cli).click().sendKeys(name2).click().build().perform();
 
 
-		
+		@Test(groups= {"p2"})
+
+	@Parameters({"vegName1","vegName2"})
+	public void test2(String name1, String name2) {
+
+		Actions act = new Actions(driver);
+		WebElement cli = driver.findElement(By.xpath("//input[@id=\"input\"]"));
+		act.moveToElement(cli).click().sendKeys(name2).click().build().perform();
+
 	
 	
 	}
