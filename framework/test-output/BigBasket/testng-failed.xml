@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BigBasket]" guice-stage="DEVELOPMENT">
+  <parameter name="vegName1" value="tomato"/>
+  <parameter name="vegName2" value="potato"/>
+  <test thread-count="5" name="hello(failed)">
+    <groups>
+      <run>
+        <include name="p1"/>
+        <include name="p2"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testngsbigbasket.Bigbasket">
+        <methods>
+          <include name="closeApplication"/>
+          <include name="test2" invocation-numbers="0"/>
+          <include name="testcae1ve"/>
+          <include name="navigatetoApplication"/>
+        </methods>
+      </class> <!-- testngsbigbasket.Bigbasket -->
+    </classes>
+  </test> <!-- hello(failed) -->
+</suite> <!-- Failed suite [BigBasket] -->

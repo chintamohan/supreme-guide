@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BigBasket">
+<groups>
+<run>
+<include name="p1"></include>
+<include name="p2"></include>
+</run>
+</groups>
+    
+
+<parameter name="vegName1" value="tomato"></parameter>
+<parameter name="vegName2" value="potato"></parameter>
+
+  <test thread-count="5" name="hello">
+    <classes>	
+      <class name="testngsbigbasket.Bigbasket"/>
+      <class name="testngsbigbasket.TestBse"/>
+      
+    </classes>
+  </test> 
+  
+</suite>

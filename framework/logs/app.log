@@ -1,0 +1,21 @@
+[INFO ] 2022-04-11 10:36:21.606 [main] Log4jverify - iam from info
+[ERROR] 2022-04-11 10:36:21.608 [main] Log4jverify - Did it again!
+[INFO ] 2022-04-11 10:41:13.070 [main] Log4jverify - iam from info
+[ERROR] 2022-04-11 10:41:13.072 [main] Log4jverify - Did it again!
+[INFO ] 2022-04-11 11:01:18.059 [main] Log4jverify - LoginTestcse001 Pass
+[INFO ] 2022-04-11 11:02:26.288 [main] Log4jverify - LoginTestcse002 Pass
+[INFO ] 2022-04-11 11:23:21.844 [main] Log4jverify - iam from info
+[ERROR] 2022-04-11 11:23:21.846 [main] Log4jverify - Did it again!
+[INFO ] 2022-04-11 11:36:14.073 [main] Log4jverify - iam from info
+[ERROR] 2022-04-11 11:36:14.075 [main] Log4jverify - Did it again!
+[INFO ] 2022-04-11 11:49:01.146 [main] Log4jverify - LoginTestcse001 Pass
+[INFO ] 2022-04-11 11:49:10.630 [main] Log4jverify - LoginTestcse002 Pass
+[INFO ] 2022-04-11 12:03:53.946 [main] Log4jverify - new test start : testcae001
+[INFO ] 2022-04-11 12:34:08.168 [main] Log4jverify - new test start : testcae001
+[INFO ] 2022-04-11 12:34:08.201 [main] Log4jverify - Test failed: testcae001
+[INFO ] 2022-04-11 12:35:43.205 [main] Log4jverify - new test start : testcae001
+[INFO ] 2022-04-11 12:35:43.248 [main] Log4jverify - Test failed: testcae001
+[INFO ] 2022-04-11 12:37:02.105 [main] Log4jverify - new test start : testcae001
+[INFO ] 2022-04-11 12:37:18.973 [main] Log4jverify - Test failed: testcae001
+[INFO ] 2022-04-11 12:38:13.909 [main] Log4jverify - new test start : testcae001
+[INFO ] 2022-04-11 12:39:17.438 [main] Log4jverify - Test failed: testcae001

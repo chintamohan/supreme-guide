@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [all]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="students(failed)">
+    <classes>
+      <class name="com.learnauto.testcases.Loginwithfarame">
+        <methods>
+          <include name="loginApp"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.learnauto.testcases.Loginwithfarame -->
+    </classes>
+  </test> <!-- students(failed) -->
+</suite> <!-- Failed suite [all] -->
